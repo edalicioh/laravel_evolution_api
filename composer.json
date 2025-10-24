@@ -1,0 +1,31 @@
+{
+    "name": "edalicio/evolution_api",
+    "autoload": {
+        "psr-4": {
+            "Edalicio\\EvolutionApi\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Edalicio\\EvolutionApi\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Edalicio Heinzen",
+            "email": "edalicio@outlook.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Edalicio\\EvolutionApi\\EvolutionApiServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/pest",
+        "test-coverage": "vendor/bin/pest --coverage"
+    }
+}
