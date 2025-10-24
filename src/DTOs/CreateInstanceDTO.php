@@ -71,7 +71,7 @@ class CreateInstanceDTO implements Arrayable
             'token' => $this->token,
             'number' => $this->number,
             'qrcode' => $this->qrcode,
-            'integration' => $this->integration,
+            'integration' => $this->integration->value,
             'settings' => $this->settings?->toArray(),
             'proxy' => $this->proxy?->toArray(),
             'webhook' => $this->webhook?->toArray(),

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-
+namespace Edalicio\EvolutionApi\DTOs;
 
 class InstanceSettingsDTO
 {
